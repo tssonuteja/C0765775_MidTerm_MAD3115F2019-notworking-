@@ -14,6 +14,7 @@
 		9BB8FFB9236C907E0052A153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB8FFB7236C907E0052A153 /* LaunchScreen.storyboard */; };
 		9BB8FFC3236C945D0052A153 /* images (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 9BB8FFC2236C945D0052A153 /* images (1).png */; };
 		9BB8FFC5236C9F970052A153 /* CustomerListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8FFC4236C9F970052A153 /* CustomerListTableViewController.swift */; };
+		9BB8FFC9236CBFA70052A153 /* Customers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8FFC8236CBFA70052A153 /* Customers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9BB8FFBA236C907E0052A153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BB8FFC2236C945D0052A153 /* images (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "images (1).png"; sourceTree = "<group>"; };
 		9BB8FFC4236C9F970052A153 /* CustomerListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerListTableViewController.swift; sourceTree = "<group>"; };
+		9BB8FFC8236CBFA70052A153 /* Customers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		9BB8FFAD236C907B0052A153 /* C0765775_MidTerm_MAD3115F2019 */ = {
 			isa = PBXGroup;
 			children = (
+				9BB8FFC7236CBF8C0052A153 /* Bill */,
 				9BB8FFC1236C92720052A153 /* image */,
 				9BB8FFAE236C907B0052A153 /* AppDelegate.swift */,
 				9BB8FFB0236C907B0052A153 /* LoginViewController.swift */,
@@ -76,6 +79,14 @@
 				9BB8FFC2236C945D0052A153 /* images (1).png */,
 			);
 			path = image;
+			sourceTree = "<group>";
+		};
+		9BB8FFC7236CBF8C0052A153 /* Bill */ = {
+			isa = PBXGroup;
+			children = (
+				9BB8FFC8236CBFA70052A153 /* Customers.swift */,
+			);
+			path = Bill;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +164,7 @@
 				9BB8FFB1236C907B0052A153 /* LoginViewController.swift in Sources */,
 				9BB8FFC5236C9F970052A153 /* CustomerListTableViewController.swift in Sources */,
 				9BB8FFAF236C907B0052A153 /* AppDelegate.swift in Sources */,
+				9BB8FFC9236CBFA70052A153 /* Customers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
