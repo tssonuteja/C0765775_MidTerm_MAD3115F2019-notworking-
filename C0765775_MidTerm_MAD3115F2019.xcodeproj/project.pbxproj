@@ -15,6 +15,12 @@
 		9BB8FFC3236C945D0052A153 /* images (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 9BB8FFC2236C945D0052A153 /* images (1).png */; };
 		9BB8FFC5236C9F970052A153 /* CustomerListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8FFC4236C9F970052A153 /* CustomerListTableViewController.swift */; };
 		9BB8FFC9236CBFA70052A153 /* Customers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8FFC8236CBFA70052A153 /* Customers.swift */; };
+		9BB8FFCB236CC0DD0052A153 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8FFCA236CC0DD0052A153 /* main.swift */; };
+		9BB8FFCD236CC0E40052A153 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8FFCC236CC0E40052A153 /* Bill.swift */; };
+		9BB8FFCF236CC0F20052A153 /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8FFCE236CC0F20052A153 /* Mobile.swift */; };
+		9BB8FFD1236CC1010052A153 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8FFD0236CC1010052A153 /* Hydro.swift */; };
+		9BB8FFD3236CC1080052A153 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8FFD2236CC1080052A153 /* Internet.swift */; };
+		9BB8FFD5236CC1110052A153 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8FFD4236CC1110052A153 /* Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,12 @@
 		9BB8FFC2236C945D0052A153 /* images (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "images (1).png"; sourceTree = "<group>"; };
 		9BB8FFC4236C9F970052A153 /* CustomerListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerListTableViewController.swift; sourceTree = "<group>"; };
 		9BB8FFC8236CBFA70052A153 /* Customers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customers.swift; sourceTree = "<group>"; };
+		9BB8FFCA236CC0DD0052A153 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9BB8FFCC236CC0E40052A153 /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		9BB8FFCE236CC0F20052A153 /* Mobile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
+		9BB8FFD0236CC1010052A153 /* Hydro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
+		9BB8FFD2236CC1080052A153 /* Internet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
+		9BB8FFD4236CC1110052A153 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +96,12 @@
 		9BB8FFC7236CBF8C0052A153 /* Bill */ = {
 			isa = PBXGroup;
 			children = (
+				9BB8FFD4236CC1110052A153 /* Date.swift */,
+				9BB8FFD2236CC1080052A153 /* Internet.swift */,
+				9BB8FFD0236CC1010052A153 /* Hydro.swift */,
+				9BB8FFCE236CC0F20052A153 /* Mobile.swift */,
+				9BB8FFCC236CC0E40052A153 /* Bill.swift */,
+				9BB8FFCA236CC0DD0052A153 /* main.swift */,
 				9BB8FFC8236CBFA70052A153 /* Customers.swift */,
 			);
 			path = Bill;
@@ -162,8 +180,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BB8FFB1236C907B0052A153 /* LoginViewController.swift in Sources */,
+				9BB8FFD5236CC1110052A153 /* Date.swift in Sources */,
+				9BB8FFCB236CC0DD0052A153 /* main.swift in Sources */,
 				9BB8FFC5236C9F970052A153 /* CustomerListTableViewController.swift in Sources */,
+				9BB8FFD3236CC1080052A153 /* Internet.swift in Sources */,
+				9BB8FFCF236CC0F20052A153 /* Mobile.swift in Sources */,
+				9BB8FFD1236CC1010052A153 /* Hydro.swift in Sources */,
 				9BB8FFAF236C907B0052A153 /* AppDelegate.swift in Sources */,
+				9BB8FFCD236CC0E40052A153 /* Bill.swift in Sources */,
 				9BB8FFC9236CBFA70052A153 /* Customers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
