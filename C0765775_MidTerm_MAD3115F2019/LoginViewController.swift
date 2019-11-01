@@ -51,6 +51,7 @@ class LoginViewController: UIViewController {
             let actionOk = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil)
             
             alert.addAction(actionOk)
+            self.present(alert, animated: true, completion: nil)
             
         }
         
