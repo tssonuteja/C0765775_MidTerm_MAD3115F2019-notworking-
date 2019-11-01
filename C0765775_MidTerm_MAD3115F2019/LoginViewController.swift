@@ -22,10 +22,9 @@ class LoginViewController: UIViewController {
     }
 
     
-    @IBAction func Login(_ sender: UIButton)
-    {
-        self.validateUser()
+    @IBAction func Login(_ sender: UIBarButtonItem) {
         
+        self.validateUser()
     }
     
     func validateUser(){
