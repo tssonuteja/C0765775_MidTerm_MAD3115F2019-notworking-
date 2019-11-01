@@ -36,6 +36,9 @@
                                 <rect key="frame" x="242" y="249" width="38" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="Login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nEe-f6-5Us"/>
+                                </connections>
                             </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jwd-Xp-XBc">
                                 <rect key="frame" x="125" y="248" width="42" height="31"/>
@@ -54,6 +57,7 @@
                     </view>
                     <connections>
                         <outlet property="Email" destination="98l-ZJ-SFI" id="BMs-Uf-xNJ"/>
+                        <outlet property="password" destination="b6f-1q-UXZ" id="XKt-2i-QyO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
