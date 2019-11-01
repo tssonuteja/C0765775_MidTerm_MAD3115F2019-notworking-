@@ -13,6 +13,7 @@
 		9BB8FFB6236C907E0052A153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB8FFB5236C907E0052A153 /* Assets.xcassets */; };
 		9BB8FFB9236C907E0052A153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB8FFB7236C907E0052A153 /* LaunchScreen.storyboard */; };
 		9BB8FFC3236C945D0052A153 /* images (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 9BB8FFC2236C945D0052A153 /* images (1).png */; };
+		9BB8FFC5236C9F970052A153 /* CustomerListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8FFC4236C9F970052A153 /* CustomerListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9BB8FFB8236C907E0052A153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BB8FFBA236C907E0052A153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BB8FFC2236C945D0052A153 /* images (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "images (1).png"; sourceTree = "<group>"; };
+		9BB8FFC4236C9F970052A153 /* CustomerListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9BB8FFB5236C907E0052A153 /* Assets.xcassets */,
 				9BB8FFB7236C907E0052A153 /* LaunchScreen.storyboard */,
 				9BB8FFBA236C907E0052A153 /* Info.plist */,
+				9BB8FFC4236C9F970052A153 /* CustomerListTableViewController.swift */,
 			);
 			path = C0765775_MidTerm_MAD3115F2019;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BB8FFB1236C907B0052A153 /* LoginViewController.swift in Sources */,
+				9BB8FFC5236C9F970052A153 /* CustomerListTableViewController.swift in Sources */,
 				9BB8FFAF236C907B0052A153 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
