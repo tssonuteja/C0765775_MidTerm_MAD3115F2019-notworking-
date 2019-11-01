@@ -26,6 +26,8 @@ class LoginViewController: UIViewController {
     }
     
     
+    @IBAction func remember(_ sender: UISwitch) {
+    }
     
 
 }
