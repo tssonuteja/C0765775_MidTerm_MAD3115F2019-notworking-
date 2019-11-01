@@ -48,6 +48,10 @@ class LoginViewController: UIViewController {
                 
                 UIAlertController(title: "Error", message: "User Email / Password incorrect", preferredStyle: UIAlertController.Style.alert)
             
+            let actionOk = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil)
+            
+            alert.addAction(actionOk)
+            
         }
         
     }
