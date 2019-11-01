@@ -22,12 +22,22 @@ class LoginViewController: UIViewController {
     }
 
     
-    @IBAction func Login(_ sender: UIButton) {
+    @IBAction func Login(_ sender: UIButton)
+    {
+        self.validateUser()
+        
+    }
+    
+    func validateUser(){
+        
     }
     
     
     @IBAction func remember(_ sender: UISwitch) {
     }
+    
+    
+    
     
 
 }
