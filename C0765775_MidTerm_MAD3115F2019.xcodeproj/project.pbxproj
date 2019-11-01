@@ -12,6 +12,7 @@
 		9BB8FFB4236C907B0052A153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB8FFB2236C907B0052A153 /* Main.storyboard */; };
 		9BB8FFB6236C907E0052A153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB8FFB5236C907E0052A153 /* Assets.xcassets */; };
 		9BB8FFB9236C907E0052A153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB8FFB7236C907E0052A153 /* LaunchScreen.storyboard */; };
+		9BB8FFC3236C945D0052A153 /* images (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 9BB8FFC2236C945D0052A153 /* images (1).png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9BB8FFB5236C907E0052A153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BB8FFB8236C907E0052A153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BB8FFBA236C907E0052A153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BB8FFC2236C945D0052A153 /* images (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "images (1).png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		9BB8FFAD236C907B0052A153 /* C0765775_MidTerm_MAD3115F2019 */ = {
 			isa = PBXGroup;
 			children = (
+				9BB8FFC1236C92720052A153 /* image */,
 				9BB8FFAE236C907B0052A153 /* AppDelegate.swift */,
 				9BB8FFB0236C907B0052A153 /* ViewController.swift */,
 				9BB8FFB2236C907B0052A153 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				9BB8FFBA236C907E0052A153 /* Info.plist */,
 			);
 			path = C0765775_MidTerm_MAD3115F2019;
+			sourceTree = "<group>";
+		};
+		9BB8FFC1236C92720052A153 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				9BB8FFC2236C945D0052A153 /* images (1).png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BB8FFB9236C907E0052A153 /* LaunchScreen.storyboard in Resources */,
+				9BB8FFC3236C945D0052A153 /* images (1).png in Resources */,
 				9BB8FFB6236C907E0052A153 /* Assets.xcassets in Resources */,
 				9BB8FFB4236C907B0052A153 /* Main.storyboard in Resources */,
 			);
