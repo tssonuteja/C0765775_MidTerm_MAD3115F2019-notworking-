@@ -21,6 +21,7 @@
 		9BB8FFD1236CC1010052A153 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8FFD0236CC1010052A153 /* Hydro.swift */; };
 		9BB8FFD3236CC1080052A153 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8FFD2236CC1080052A153 /* Internet.swift */; };
 		9BB8FFD5236CC1110052A153 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8FFD4236CC1110052A153 /* Date.swift */; };
+		9BB8FFD7236CC1430052A153 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8FFD6236CC1430052A153 /* IDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		9BB8FFD0236CC1010052A153 /* Hydro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
 		9BB8FFD2236CC1080052A153 /* Internet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
 		9BB8FFD4236CC1110052A153 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		9BB8FFD6236CC1430052A153 /* IDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		9BB8FFC7236CBF8C0052A153 /* Bill */ = {
 			isa = PBXGroup;
 			children = (
+				9BB8FFD6236CC1430052A153 /* IDisplay.swift */,
 				9BB8FFD4236CC1110052A153 /* Date.swift */,
 				9BB8FFD2236CC1080052A153 /* Internet.swift */,
 				9BB8FFD0236CC1010052A153 /* Hydro.swift */,
@@ -187,6 +190,7 @@
 				9BB8FFCF236CC0F20052A153 /* Mobile.swift in Sources */,
 				9BB8FFD1236CC1010052A153 /* Hydro.swift in Sources */,
 				9BB8FFAF236C907B0052A153 /* AppDelegate.swift in Sources */,
+				9BB8FFD7236CC1430052A153 /* IDisplay.swift in Sources */,
 				9BB8FFCD236CC0E40052A153 /* Bill.swift in Sources */,
 				9BB8FFC9236CBFA70052A153 /* Customers.swift in Sources */,
 			);
